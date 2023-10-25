@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int guessing_file() {
+int guessing_number() {
     random_device rd;
     mt19937 gen(rd());
     uniform_int_distribution<> dist(1, 100);
