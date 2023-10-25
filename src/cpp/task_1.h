@@ -18,7 +18,7 @@ bool isleapyear(int year) {
     }
 }
 
-int main() {
+int kabisa_yili() {
     int year;
     cout << "Enter a year: ";
     cin >> year;
