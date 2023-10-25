@@ -4,15 +4,17 @@
  */
 
 #include <iostream>
-#include "task_1.h"
+#include "isleapyear"
+#include "guessing_number"
+#include "long_arifmwthics"
 
 int main() {
     std::cout << "Task 1" << std::endl;
-    // call for task 1
+    isleapyear ()
     std::cout << "Task 2" << std::endl;
-    // call for task 2
+    guessing_number ()
     std::cout << "Task 3" << std::endl;
-    // call for task 3
+    long_arifmethics ()
     std::cout << "Task 4" << std::endl;
     // call for task 4
     std::cout << "Task 5" << std::endl;
