@@ -1,1 +1,17 @@
+#include <iostream>
+using namespace std;
+int long_arifmethics() {
+    int number_a;
+    cout << "Enter number A: ";
+    cin >> number_a;
+    string random_number = "";
+    for (int i = 0; i < 100; i++) {
+        random_number += to_string(rand() % 10);
+    }
+    
+    int integer_number = atoi(random_number.c_str());
+    int result = integer_number / number_a;
+    cout << "The result is: " << result << endl;
 
+    return 0;
+}
